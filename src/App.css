@@ -1,0 +1,72 @@
+body, html {
+  margin: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.contenedor {
+  padding: 5%;
+  width: 100%;
+  height: 100vh; 
+  background-image: url('./assets/logoas.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+@media (max-width: 400px) {
+  .contenedor {
+      background-position: center;
+  
+  }
+} 
+
+
+img{
+  width: 300px;
+  
+}
+
+.logo {
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+.titulo{
+  padding-top: 10px;
+ 
+}
+
+.descripcion {
+  padding-bottom: 40px;
+  padding-right: 20%;
+}
+
+.footer{
+  padding-top: 70px;
+      font-weight: bold;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: lighter;
+
+}
